@@ -66,6 +66,7 @@ df_sum = df.groupby(by=["Category"]).sum()
 labels=[]
 
 for i in df_count.index:
+    
     labels.append(i)
     
 plt.figure(figsize=(8,8))
