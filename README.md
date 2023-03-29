@@ -24,7 +24,7 @@ Do plots like boxplots,countplot,distribution plot,histogram plot.
 Developed by : Kowsalya M
 Registration Number : 212222230069
 
-## SuperScore:
+## i) SuperScore:
 
 import pandas as pd
 import numpy as np
