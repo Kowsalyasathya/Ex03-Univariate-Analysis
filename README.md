@@ -53,8 +53,8 @@ sns.distplot(df["Postal Code"])
 
 sns.histplot(x='Postal Code',data=df)
 
-import matplotlib.pyplot as plt
 
+import matplotlib.pyplot as plt
 df_count = df.groupby(by=["Category"]).count()
 df_sum = df.groupby(by=["Category"]).sum()
 labels=[]
@@ -65,6 +65,36 @@ colors = sns.color_palette('pastel')
 myexplode = [0, 0.2,0]
 plt.pie(df_count["Sales"], colors = colors,explode = myexplode, labels=labels, autopct = "%0.0f%%",shadow = False) 
 plt.show()
+
+
+## ii) Diabetes:
+
+import pandas as pd
+import numpy as np
+import seaborn as sns
+
+df=pd.read_csv('/content/diabetes.csv')
+df
+df.head()
+
+df.info()
+
+df.describe()
+
+df.isnull().sum()
+
+df.dtypes
+
+df['BloodPressure'].value_counts()
+
+sns.boxplot(x='BloodPressure', data=df)
+
+sns.countplot(x='BloodPressure',data=df)
+
+sns.distplot(df["BloodPressure"])
+
+sns.histplot(x='BloodPressure',data=df)
+
 
 ## Output:
 
@@ -80,6 +110,19 @@ plt.show()
 ![rec3 9](https://user-images.githubusercontent.com/118671457/228625467-2816c7a3-59d0-4dcf-aa90-a5d1c099a649.png)
 
 ![rec3 10](https://user-images.githubusercontent.com/118671457/228625583-8f515dd0-f32f-401d-bb7f-3b8111dcccce.png)
+
+## Diabetes:
+![dp1](https://user-images.githubusercontent.com/118671457/228629890-058d06dd-4603-4cd3-a0c1-dc0c1b2116fd.png)
+![dp2](https://user-images.githubusercontent.com/118671457/228629918-64c5b314-3c60-4aff-a7ae-dc00613c606d.png)
+![dp3](https://user-images.githubusercontent.com/118671457/228629950-0f8a187f-44ac-47b5-bfc6-aba4381f011f.png)
+
+![dp4](https://user-images.githubusercontent.com/118671457/228629980-0e296e1f-b12e-4937-a79e-19a4f86f9e94.png)
+![dp5](https://user-images.githubusercontent.com/118671457/228630018-6c6481e6-2c47-4dc2-8bc5-bdb55e63f014.png)
+
+![dp6](https://user-images.githubusercontent.com/118671457/228630052-93468a3f-967e-40cf-beee-c0a55cf10391.png)
+![dp7](https://user-images.githubusercontent.com/118671457/228630076-804d74bc-bd1c-46e6-8714-3ca8adb89f7e.png)
+
+![dp8](https://user-images.githubusercontent.com/118671457/228630119-1263f719-3d38-4bb0-b8ee-1f186cf56b12.png)
 
 ## Result:
 
