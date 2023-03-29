@@ -24,6 +24,7 @@ Do plots like boxplots,countplot,distribution plot,histogram plot.
 Developed by : Kowsalya M
 Registration Number : 212222230069
 
+## SuperScore:
 
 import pandas as pd
 import numpy as np
@@ -66,6 +67,8 @@ plt.pie(df_count["Sales"], colors = colors,explode = myexplode, labels=labels, a
 plt.show()
 
 ## Output:
+
+##SuperScore:
 ![rec3 1](https://user-images.githubusercontent.com/118671457/228624951-3b5c28a5-28c5-44be-9a54-1bdfbfafdb8c.png)
 ![rec3 2](https://user-images.githubusercontent.com/118671457/228624999-622c883a-a936-4cc1-b842-c44b15fbe6f6.png)
 ![rec3 3](https://user-images.githubusercontent.com/118671457/228625020-c76c68b0-d505-41ca-8328-82ebdb06ff7e.png)
@@ -77,3 +80,7 @@ plt.show()
 ![rec3 9](https://user-images.githubusercontent.com/118671457/228625467-2816c7a3-59d0-4dcf-aa90-a5d1c099a649.png)
 
 ![rec3 10](https://user-images.githubusercontent.com/118671457/228625583-8f515dd0-f32f-401d-bb7f-3b8111dcccce.png)
+
+## Result:
+
+Thus we have read the given data and performed the univariate analysis with different types of plots.
