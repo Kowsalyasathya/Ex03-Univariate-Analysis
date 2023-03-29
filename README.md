@@ -1,13 +1,14 @@
 # Ex03-Univariate-Analysis
 
-##Aim:
+## Aim:
 To read the given data and perform the univariate analysis with different types of plots.
 
-##Explanation:
+## Explanation:
 
 Univariate analysis is basically the simplest form to analyze data. Uni means one and this means that the data has only one 
 kind of variable. The major reason for univariate analysis is to use the data to describe. The analysis will take data,
 summarise it, and then find some pattern in the data.
+
 ## Algorithm:
 ## Step 1:
 Read the given data.
@@ -78,7 +79,6 @@ plt.pie(df_count["Sales"], colors = colors,explode = myexplode, labels=labels, a
 
 plt.show()
 
-
 ## ii) Diabetes:
 
 import pandas as pd
@@ -123,7 +123,10 @@ sns.histplot(x='BloodPressure',data=df)
 
 ![rec3 10](https://user-images.githubusercontent.com/118671457/228625583-8f515dd0-f32f-401d-bb7f-3b8111dcccce.png)
 
+
 ## Diabetes:
+
+
 ![dp1](https://user-images.githubusercontent.com/118671457/228629890-058d06dd-4603-4cd3-a0c1-dc0c1b2116fd.png)
 ![dp2](https://user-images.githubusercontent.com/118671457/228629918-64c5b314-3c60-4aff-a7ae-dc00613c606d.png)
 ![dp3](https://user-images.githubusercontent.com/118671457/228629950-0f8a187f-44ac-47b5-bfc6-aba4381f011f.png)
