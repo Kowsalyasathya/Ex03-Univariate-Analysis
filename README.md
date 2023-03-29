@@ -52,5 +52,24 @@ sns.distplot(df["Postal Code"])
 
 sns.histplot(x='Postal Code',data=df)
 
+import matplotlib.pyplot as plt
+
+df_count = df.groupby(by=["Category"]).count()
+df_sum = df.groupby(by=["Category"]).sum()
+labels=[]
+for i in df_count.index:
+    labels.append(i)
+plt.figure(figsize=(8,8))
+colors = sns.color_palette('pastel')
+myexplode = [0, 0.2,0]
+plt.pie(df_count["Sales"], colors = colors,explode = myexplode, labels=labels, autopct = "%0.0f%%",shadow = False) 
+plt.show()
+
 ## Output:
+![rec3 1](https://user-images.githubusercontent.com/118671457/228624951-3b5c28a5-28c5-44be-9a54-1bdfbfafdb8c.png)
+![rec3 2](https://user-images.githubusercontent.com/118671457/228624999-622c883a-a936-4cc1-b842-c44b15fbe6f6.png)
+![rec3 3](https://user-images.githubusercontent.com/118671457/228625020-c76c68b0-d505-41ca-8328-82ebdb06ff7e.png)
+![rec3 4](https://user-images.githubusercontent.com/118671457/228625074-d0713c0a-51c4-473f-a52f-5c1f85a186af.png)
+![rec3 5](https://user-images.githubusercontent.com/118671457/228625114-22c37e3c-1de1-4344-ba6f-dbc6908c0a69.png)
+![rec3 6](https://user-images.githubusercontent.com/118671457/228625149-2a3f5b68-929e-4bbc-89a6-cca98ee3ec68.png)
 
