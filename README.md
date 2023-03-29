@@ -1,11 +1,13 @@
 # Ex03-Univariate-Analysis
 
 ##Aim:
-
 To read the given data and perform the univariate analysis with different types of plots.
+
 ##Explanation:
 
-Univariate analysis is basically the simplest form to analyze data. Uni means one and this means that the data has only one kind of variable. The major reason for univariate analysis is to use the data to describe. The analysis will take data, summarise it, and then find some pattern in the data.
+Univariate analysis is basically the simplest form to analyze data. Uni means one and this means that the data has only one 
+kind of variable. The major reason for univariate analysis is to use the data to describe. The analysis will take data,
+summarise it, and then find some pattern in the data.
 ## Algorithm:
 ## Step 1:
 Read the given data.
@@ -55,15 +57,25 @@ sns.histplot(x='Postal Code',data=df)
 
 
 import matplotlib.pyplot as plt
+
 df_count = df.groupby(by=["Category"]).count()
+
 df_sum = df.groupby(by=["Category"]).sum()
+
 labels=[]
+
 for i in df_count.index:
+
     labels.append(i)
+    
 plt.figure(figsize=(8,8))
+
 colors = sns.color_palette('pastel')
+
 myexplode = [0, 0.2,0]
+
 plt.pie(df_count["Sales"], colors = colors,explode = myexplode, labels=labels, autopct = "%0.0f%%",shadow = False) 
+
 plt.show()
 
 
@@ -120,9 +132,9 @@ sns.histplot(x='BloodPressure',data=df)
 ![dp5](https://user-images.githubusercontent.com/118671457/228630018-6c6481e6-2c47-4dc2-8bc5-bdb55e63f014.png)
 
 ![dp6](https://user-images.githubusercontent.com/118671457/228630052-93468a3f-967e-40cf-beee-c0a55cf10391.png)
-![dp7](https://user-images.githubusercontent.com/118671457/228630076-804d74bc-bd1c-46e6-8714-3ca8adb89f7e.png)
+![dp7 1](https://user-images.githubusercontent.com/118671457/228632250-67dba91c-08cd-4301-a14b-fd64fe4218e8.png)
 
-![dp8](https://user-images.githubusercontent.com/118671457/228630119-1263f719-3d38-4bb0-b8ee-1f186cf56b12.png)
+![df8 1](https://user-images.githubusercontent.com/118671457/228632283-c538c67a-7a2a-4f39-b9ba-3c3cee440c6c.png)
 
 ## Result:
 
