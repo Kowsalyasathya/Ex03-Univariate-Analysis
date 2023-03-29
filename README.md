@@ -72,4 +72,8 @@ plt.show()
 ![rec3 4](https://user-images.githubusercontent.com/118671457/228625074-d0713c0a-51c4-473f-a52f-5c1f85a186af.png)
 ![rec3 5](https://user-images.githubusercontent.com/118671457/228625114-22c37e3c-1de1-4344-ba6f-dbc6908c0a69.png)
 ![rec3 6](https://user-images.githubusercontent.com/118671457/228625149-2a3f5b68-929e-4bbc-89a6-cca98ee3ec68.png)
+![rec3 7](https://user-images.githubusercontent.com/118671457/228625384-5e529212-ca8c-4526-b0af-d1114d920ea1.png)
+![rec3 8](https://user-images.githubusercontent.com/118671457/228625415-217d719f-3112-464d-9e6a-f586ccc080a8.png)
+![rec3 9](https://user-images.githubusercontent.com/118671457/228625467-2816c7a3-59d0-4dcf-aa90-a5d1c099a649.png)
 
+![rec3 10](https://user-images.githubusercontent.com/118671457/228625583-8f515dd0-f32f-401d-bb7f-3b8111dcccce.png)
